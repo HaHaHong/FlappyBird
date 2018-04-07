@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>FlappyBirdy-笨鸟先飞游戏</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        canvas{
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <audio src="music/die.ogg" id="die"></audio>
+    <audio src="music/down.ogg" id="down"></audio>
+    <audio src="music/fly.ogg" id="fly"></audio>
+    <audio src="music/score.ogg" id="score"></audio>
+    <canvas width="414" height="650" tabIndex="1"></canvas>
+
+    <script type="text/javascript" src="js/lib/underscore-min.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+    <script type="text/javascript" src="js/background.js"></script>
+    <script type="text/javascript" src="js/Land.js"></script>
+    <script type="text/javascript" src="js/Pipe.js"></script>
+    <script type="text/javascript" src="js/Bird.js"></script>
+    <script type="text/javascript" src="js/sceneManager.js"></script>
+    <script type="text/javascript">
+         var game = new Game();
+    </script>
+</body>
+</html>
