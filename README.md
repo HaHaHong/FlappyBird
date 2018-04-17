@@ -28,8 +28,11 @@
 小鸟的碰撞检测使用AABB盒的方法，就是把小鸟看做一个矩形，去判断有没有碰到。<br /> 
 AABB盒，轴对齐包围也称为矩形盒。 [包围球碰撞检测方法学习的一个网站](https://www.cnblogs.com/lyggqm/p/5386174.html/)<br /> 
 碰撞检测的逻辑图：<br /> 
-![](C:\Users\Administrator\Desktop\图片.jpg)
+![](https://github.com/HaHaHong/FlappyBird/blob/master/images/%E7%A2%B0%E6%92%9E%E5%9B%BE%E7%89%87.jpg)<br />
 碰撞检测写在管子身上，因为管子有很多，只需要检测有没有碰撞那唯一的一只小鸟，没有for循环。<br /> 
 如果写在鸟身上，此时要用for循环循环所有的管子，一一检测。<br /> 
 
 ------------------------ 
+#### 游戏演示
+![](https://github.com/HaHaHong/FlappyBird/blob/master/images/show1.gif)
+
